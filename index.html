@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil Pessoal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Pagina Pessoal/styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="hamburger-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="brand">MN</div>
+        <nav class="nav-menu">
+            <a href="#about" class="nav-link">Sobre</a>
+            <a href="#education" class="nav-link">Certificações</a>
+            <a href="#projects" class="nav-link">Formação</a>
+            <a href="#hobbies" class="nav-link">Hobbies</a>
+            <a href="#contact" class="nav-link">Contato</a>
+        </nav>
+    </header>
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="profile-intro">
+                <div class="profile-image">
+                    <div class="image-placeholder"></div>
+                </div>
+                <div class="personal-details">
+                    <h2>Marlon <span>Neves</span></h2>
+                    <p class="professional-title">Desenvolvedor</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <span>Goiás uai, GO</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-envelope"></i>
+                            <span>marlon@email.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-phone"></i>
+                            <span>(38) 99742-2463</span>
+                        </div>
+                        <div class="info-item-por">
+                            <i class="bi bi-arrow-right-square-fill"></i>
+                            <span><b><a href="Portifolio/index.html">MEU PORTIFOLIO</a></b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-description">
+                <h2 class="section-title">Sobre <span>Mim</span></h2>
+                <p>Sou um desenvolvedor com 4 anos de experiência em Front-end. Minha paixão por tecnologia começou em 2020 e desde então, busco criar soluções inovadoras e funcionais.</p>   
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <h2 class="section-title">Formação <span>Acadêmica</span></h2>
+        <div class="education-content">
+            <table class="academic-table">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Instituição</th>
+                        <th>Término</th>
+                        <th>Periodo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tecnico de informática</td>
+                        <td>IF GOIANO</td>
+                        <td>2019 - 2022</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Sistemas de Informação</td>
+                        <td>IF GOIANO</td>
+                        <td>2023-2026</td>
+                        <td>5°</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications-section">
+        <h2 class="section-title">Certificações e <span>Reconhecimentos</span></h2>
+        <div class="certifications-content">
+            <div class="certification-item">
+                <h3>Certificado de Tecnico de informática</h3>
+                <p>Link do certificado</p>
+            </div>
+            <div class="certification-item">
+                <h3>Prêmio Melhor Projeto Acadêmico</h3>
+                <p>IF Goiano - 2023</p>
+            </div>
+            <div class="certification-item">
+                <h3>Certificado de Inglês</h3>
+                <p>Link do certificado</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="hobbies-section">
+        <h2 class="section-title">Meus <span>Hobbies</span></h2>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <i class="bi bi-book"></i>
+                <h3>Leitura</h3>
+                <p>Adoro ler livros de ficção científica e tecnologia.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="bi bi-controller"></i>
+                <h3>Video Games</h3>
+                <p>Gosto de jogos de corrida e estrategia.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="bi bi-bicycle"></i>
+                <h3>Ciclismo</h3>
+                <p>Curto fazer trilhas de bicicleta no fim da tarde.</p>
+            </div>
+        <div class="hobby-card">
+            <i class="bi bi-bricks"></i>
+            <h3>Xadrez</h3>
+            <p>Gosto de jogar Xadrez no meu tempos livres.</p>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Entre em <span>Contato</span></h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Marlon Neves. Todos os direitos reservados.</p>
+        <div class="footer-social">
+            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="/Pagina Pessoal/script.js"></script>
+</body>
+
+</html>
